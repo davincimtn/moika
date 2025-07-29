@@ -820,6 +820,7 @@ figure {
 
     .accordion__item.active .accordion__panel {
         max-height: 200px;
+        margin-bottom: 3.46667vw;
     }
 
     .footer {
