@@ -320,7 +320,8 @@ figure {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-    display: flex
+    display: flex;
+    cursor: pointer;
 }
 
 .accordion__panel {
@@ -329,10 +330,9 @@ figure {
   transition: max-height 0.3s ease;
 }
 
-.accordion__item.active .accordion__panel {
-  max-height: 150px;
+input[type="checkbox"]:checked ~ .accordion__panel {
+  max-height: 200px; /* настрой под контент */
 }
-
 
 .footer,
 .footer-wrapper {
