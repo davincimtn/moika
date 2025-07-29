@@ -313,18 +313,14 @@ figure {
 
 .accordion__item {
     border-bottom: 1px solid var(--light-gray);
-    cursor: pointer
+    cursor: pointer;
+    margin-bottom: 1vw;
 }
 
 .accordion__heading {
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
     display: flex;
-}
-
-.accordion__panel {
-    margin-bottom: 1vw;
 }
 
 .footer,
@@ -817,10 +813,9 @@ figure {
     }
 
     .accordion__panel {
-        margin-bottom: 3.46667vw;
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.3s ease;
+        transition: max-height 0.5s ease;
     }
 
     .accordion__item.active .accordion__panel {
