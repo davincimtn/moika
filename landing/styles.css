@@ -815,7 +815,6 @@ figure {
     .accordion__panel {
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.5s ease;
     }
 
     .accordion__item.active .accordion__panel {
