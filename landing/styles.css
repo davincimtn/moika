@@ -830,6 +830,10 @@ figure {
     gap: 1rem;
     }
 
+    .slider::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+    }
+
     .slider__item {
         border-radius: 4vw;
         order: 0;
