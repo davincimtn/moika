@@ -912,7 +912,7 @@ figure {
         font-size: 4vw
     }
 
-    .div-block-7 {
+    .dot {
         background-color: var(--gray);
         border-radius: 20vw;
         width: 2.5vw;
@@ -921,7 +921,7 @@ figure {
         padding-right: 0
     }
 
-    .dots {
+    .slider__dots {
         grid-column-gap: 3vw;
         grid-row-gap: 3vw;
         justify-content: center;
