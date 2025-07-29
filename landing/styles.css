@@ -321,17 +321,10 @@ figure {
     align-items: center;
     margin-bottom: 15px;
     display: flex;
-    cursor: pointer;
 }
 
 .accordion__panel {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-
-input[type="checkbox"]:checked ~ .accordion__panel {
-  max-height: 200px; /* настрой под контент */
+    margin-bottom: 1vw;
 }
 
 .footer,
@@ -373,10 +366,6 @@ input[type="checkbox"]:checked ~ .accordion__panel {
     justify-content: flex-start;
     align-items: center;
     display: flex
-}
-
-.accordion__item_last {
-    cursor: pointer
 }
 
 .section-wrapper {
@@ -808,6 +797,12 @@ input[type="checkbox"]:checked ~ .accordion__panel {
         display: flex
     }
 
+    .accordion__item {
+        border-bottom: .0625rem solid var(--light-gray);
+        flex-direction: row;
+        align-items: flex-start
+    }
+
     .accordion__heading {
         grid-column-gap: 0;
         grid-row-gap: 0;
@@ -823,13 +818,13 @@ input[type="checkbox"]:checked ~ .accordion__panel {
 
     .accordion__panel {
         margin-bottom: 3.46667vw;
-        display: none
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
     }
 
-    .accordion__item {
-        border-bottom: .0625rem solid var(--light-gray);
-        flex-direction: row;
-        align-items: flex-start
+    .accordion__item.active .accordion__panel {
+        max-height: 200px;
     }
 
     .footer {
