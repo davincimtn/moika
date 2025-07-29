@@ -324,16 +324,15 @@ figure {
 }
 
 .accordion__panel {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
 }
 
 .accordion__item.active .accordion__panel {
-    max-height: 200px;
-    /* или auto с JS поддержкой */
-    padding: 1rem;
+  max-height: 150px;
 }
+
 
 .footer,
 .footer-wrapper {

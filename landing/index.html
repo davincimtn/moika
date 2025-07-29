@@ -231,10 +231,14 @@
             </div>
         </div>
     </figure>
+   <script>
+    document.querySelectorAll('.accordion__heading').forEach((heading) => {
+      heading.addEventListener('click', () => {
+        heading.parentElement.classList.toggle('active');
+      });
+    });
+  </script>
 
-    <!-- Подключение скриптов -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/landing/main.js"></script>
 </body>
 
 </html>
