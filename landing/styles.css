@@ -808,7 +808,7 @@ figure {
         grid-auto-columns: 1fr;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 3vw;
+        margin-bottom: 1vw;
         display: flex
     }
 
