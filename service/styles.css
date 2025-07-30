@@ -316,6 +316,25 @@ h2 {
     font-weight: 600
 }
 
+.link_small {
+  color: var(--blue);
+  font-size: 11px;
+  line-height: 125%;
+}
+
+.paragraph-small.text-color_black70 {
+  font-size: 11px;
+}
+
+.text-color_black70 {
+  color: var(--black70);
+  margin-bottom: 0;
+}
+
+p {
+  text-align: center;
+  line-height: 125%;
+}
 @media screen and (max-width:991px) {
     .container {
         width: 80%
@@ -477,5 +496,13 @@ h2 {
         align-items: center;
         width: 12vw;
         font-size: 3.73333vw
+    }
+
+    .paragraph-small.text-color_black70 {
+    font-size: 2.93vw;
+    }
+
+    .link_small {
+    font-size: 2.93333vw;
     }
 }
